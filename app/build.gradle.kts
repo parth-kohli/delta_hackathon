@@ -52,6 +52,8 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.navigation.compose.android)
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -66,5 +68,10 @@ dependencies {
     implementation("io.ktor:ktor-client-websockets:3.2.2")
     implementation("io.ktor:ktor-client-content-negotiation:3.2.2")
     implementation("io.ktor:ktor-serialization-kotlinx-json:3.2.2")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:3.2.2")
+    implementation("io.ktor:ktor-client-okhttp:3.2.2")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:okhttp:4.9.1")
 
 }
